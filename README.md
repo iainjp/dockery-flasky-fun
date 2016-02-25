@@ -14,9 +14,9 @@ Then go to "http://localhost/".
 
 # Brief explanation
 
-The Dockerfile contains the steps to build a Docker container image. This includes installing Python and pip, installing the ap dependencies, and running the app.
+The Dockerfile contains the steps to build a Docker container image. This includes installing Python and pip, installing the app dependencies, and running the app.
 
-Once this container image is built, we can create a new container, redirecting our host port 80 to the container port 5000. We can then access the containerized app via our host port 80.
+Once this container image is built, we can create a new container from it, redirecting our host port 80 to the container port 5000. We can then access the containerized app via our host port 80.
 
 # Credit
 
